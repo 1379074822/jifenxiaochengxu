@@ -1,7 +1,7 @@
 {
-	"name": "",
+	"name": "HelloWorld",
 	"appid": "",
-	"description": "",
+	"description": "基于uni-app的微信小程序Demo",
 	"versionName": "1.0.0",
 	"versionCode": "100",
 	"transformPx": false,
@@ -54,11 +54,15 @@
 
 	},
 	"mp-weixin": { /* 微信小程序特有相关 */
-		"appid": "",
+		"appid": "wx42eafaf1f4f8176a",
 		"setting": {
 			"urlCheck": false
 		},
-		"usingComponents": true
+		"usingComponents": true,
+		"cloudfunctionRoot": "cloudfunctions/",
+		"cloudfunctionTemplate": {
+			"env": "cloud1-8g0hmbzg2c269794"
+		}
 	},
 	"mp-alipay" : {
         "usingComponents" : true
